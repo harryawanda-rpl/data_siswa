@@ -66,8 +66,8 @@ session_start(); // memulai sesi
           </td>
         </tr>
         <?php
-      } // Mengakhiri proses perulangan while yang dimulai pada baris ke-46
-      ?>
+        } // Mengakhiri proses perulangan while yang dimulai pada baris ke-46
+        ?>
     </tbody>
   </table>
   <p>Total: <?php echo mysqli_num_rows($query) ?></p>
