@@ -4,9 +4,9 @@ session_start();
 include ("config.php");
 
 // periksa apakah ada ID yang dikirim melalui URL
-if(isset($_GET['siswa_id'])){
+if(isset($_GET['id'])){
   // ambil ID dari URL
-  $id = $_GET['siswa_id'];
+  $id = $_GET['id'];
   // membuat query untuk menghapus data siswa berdasarkan ID
   $sql = "DELETE FROM tb_siswa WHERE id = $id";
   $query = mysqli_query($db, $sql);
