@@ -61,7 +61,7 @@ session_start(); // memulai sesi
             <a href="form-edit.php?id=<?php echo $siswa['id'] ?>">Edit</a>
             <!-- URL untuk hapus data menggunakan parameter
             id pada kolom tabel dan alert konfirmasi hapus data -->
-            <a href="hapus.php?id=<?php echo $siswa['id'] ?>"
+            <a href="hapus.php?siswa_id=<?php echo $siswa['id'] ?>"
             onclick="return confirm('Anda yakin ingin menghapus data?')">Hapus</a>
           </td>
         </tr>
